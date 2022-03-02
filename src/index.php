@@ -68,7 +68,7 @@
         <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
             <div class="text-center lg:w-2/3 w-full">
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">Your account has been
-                    created
+                    created!
                 </h1>
                 <div class="h-full bg-gray-100 px-16 py-4 mb-8 rounded">
                     <p class="leading-relaxed text-xl font-semibold"><?php echo $currentDomain ?></p>
