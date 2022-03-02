@@ -63,6 +63,7 @@
             </nav>
         </div>
     </header>
+    <?php $currentDomain = $_SERVER['SERVER_NAME']; ?>
     <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
             <div class="text-center lg:w-2/3 w-full">
@@ -70,9 +71,9 @@
                     created
                 </h1>
                 <div class="h-full bg-gray-100 px-16 py-4 mb-8 rounded">
-                    <p class="leading-relaxed text-xl font-semibold">www.xxx.com</p>
+                    <p class="leading-relaxed text-xl font-semibold"><?php echo $currentDomain ?></p>
                 </div>
-                <p class="leading-relaxed text-xl">Congratulations! website www.xxx.com has been successfully created on
+                <p class="leading-relaxed text-xl">Congratulations! website <?php echo $currentDomain ?> has been successfully created on
                     server! Please delete the file default.php from the public_html folder and then upload your website
                     using FTP or File Manager.</p>
 
