@@ -71,7 +71,7 @@
     <?php $currentDomain = $_SERVER['SERVER_NAME']; ?>
     <section class="text-gray-600 body-font ">
         <div class="container justify-center mx-auto flex flex-col text-center">
-        <div class="flex flex-row justify-start">
+        <div class="flex flex-row justify-center">
 
             <svg class="flex w-fit mt-6 ml-5" width="175" height="192.5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
                 <style type="text/css">
